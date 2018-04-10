@@ -1,12 +1,11 @@
 require "thor"
 require "fast_tools"
 
-module Fast_tools
+module FastTools
   class CLI < Thor
-
-    desc "fast_tools", "Fast tools for developing Ruby projects."
-      def intro
-        puts Fast_tools.intro
+    desc "portray item", "Show item content"
+      def portray(item)
+        puts FastTools::Project.portray(item)
     end
   end
  end
