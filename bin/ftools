@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require "fast_tools/cli"
+
+CLI.start

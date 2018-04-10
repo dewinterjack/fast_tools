@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jack Dewinter"]
   spec.email         = ["jackdewinter1@gmail.com"]
 
-  spec.summary       = %q{Fast tools for developing Ruby projects.}
+  spec.summary       = "Fast tools for developing Ruby projects."
   spec.homepage      = "https://github.com/dewinterjack/fast_tools"
   spec.license       = "MIT"
 
@@ -33,4 +33,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_runtime_dependency "thor"
 end
