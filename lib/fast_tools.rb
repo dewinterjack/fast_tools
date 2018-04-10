@@ -1,7 +1,3 @@
 require "fast_tools/version"
+require "fast_tools/project"
 
-module FastTools
-  def self.intro
-    "Fast tools enable developers to create projects faster"
-  end
-end
